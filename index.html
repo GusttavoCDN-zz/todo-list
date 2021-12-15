@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Lista de Tarefas</title>
+</head>
+
+<body>
+
+  <section id="container">
+    <header id="header">
+
+      <div id="container-title">
+        <h1 id="main-title">Minha Lista de Tarefas</h1>
+        <img id="todo-img" src="todo.png" alt="Lista de Tarefas" width="30px">
+      </div>
+
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo
+    </header>
+
+    <main>
+
+
+      <div class="container-add-tasks">
+        <input id="texto-tarefa" type="text" placeholder="Adicione uma tarefa">
+        <button id="criar-tarefa">Add Task</button>
+      </div>
+
+      <div class="container-task-list">
+        <ol id="lista-tarefas">
+        </ol>
+      </div>
+
+      <div id="buttons">
+        <button id="apaga-tudo">Clear</button>
+        <button id="remover-finalizados">Remove Completed</button>
+        <button id="salvar-tarefas">Save Tasks</button>
+        <button id="remover-selecionado">Remove Selected</button>
+        <button id="mover-cima">UP</button>
+        <button id="mover-baixo">DOWN</button>
+      </div>
+
+    </main>
+  </section>
+</body>
+
+</html>

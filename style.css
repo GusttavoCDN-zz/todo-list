@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Alfa slab One, cursive;
+}
+
+body {
+  background: hsla(186, 33%, 94%, 1);
+  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+#container {
+  margin: 4rem auto;
+  width: 700px;
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 1.5rem;
+  background-color: rgb(245, 248, 219);
+}
+
+#header {
+  text-align: center;
+}
+
+#container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-title {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+#todo-img {
+  margin-left: 0.5rem;
+}
+
+#funcionamento {
+  color: gray;
+}
+
+
+main {
+  margin-top: 1rem;
+}
+
+.container-add-tasks {
+  margin-bottom: 1rem;
+}
+
+.container-task-list {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  background-color: rgb(241 , 247 , 237);
+}
+
+#lista-tarefas {
+  margin-bottom: 1rem;
+}
+
+li {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 0.5rem;
+  font-family: Pacifico, cursive;
+  list-style-type: square;
+}
+
+.highlighted {
+  background-color: gray;
+  border-radius: 50px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* Buttons Style */
+#texto-tarefa {
+  width: 70%;
+  border-radius: 8px;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+  font-family: Pacifico, cursive;
+}
+
+button {
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
+#criar-tarefa {
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+}
+
+#apaga-tudo {
+  background-color: rgb(32 , 191 , 85);
+}
+
+#remover-finalizados {
+  background-color: rgb(254 , 201 , 241);
+}
+
+#salvar-tarefas {
+  background-color: rgb(255 , 191 , 0);
+}
+
+#remover-selecionado {
+  background-color: rgb(255 , 159 , 28);
+}
+
+#mover-cima {
+  background-color: rgb(110 , 68 , 255);
+}
+
+#mover-baixo {
+  background-color: rgb(255 , 34 , 12);
+}
+
+span {
+  color: green;
+}
+
+@media screen and (max-width: 700px) {
+  #container {
+    width: 80%;
+  }
+
+  #header {
+    text-align: center;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
