@@ -2,7 +2,7 @@
 
 Projeto desenvolvido como parte do curriculo da Trybe. O desafio aqui foi contruir uma lista de tarefas capaz de adicionar, remover e marcar tarefas completas. Além de usar o local storage para guardar oque é salvo.
 
-[Preview]()
+[Preview](https://gusttavocdn.github.io/todo-list/)
 
 ## Habilidades Praticas
 
